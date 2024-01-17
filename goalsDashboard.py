@@ -125,6 +125,16 @@ class GoalsDashboard():
 ############################################################################
 #                 Restyle/Resize/Repopulate Text Functions                 #
 ############################################################################
+    
+    # refresh the text every 20 minutes
+    def periodic_refresh(self) -> None:
+        if self.current_view == "Full":
+            for area in self.full_frames_dict:
+                self.repopulate_frame(area)
+        elif self.current_view == "Area Focus":
+            for area in self.area_focused_frames_dict:
+                self.repopulate_frame(area)
+        self.root.after(20 * 60 * 1000, self.periodic_refresh)
 
     def on_resize(self, event: tk.Event) -> None:
         
