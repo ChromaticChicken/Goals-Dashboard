@@ -1,0 +1,117 @@
+Classroom:
+- current_value: '0'
+  end_date: 01/08/2024
+  name: asdf
+  reminder_text: Weekly on Monday
+  start_date: 01/03/2024
+  target_value: 098709
+- current_value: '0'
+  end_date: 12/25/2023
+  name: asdffasdf
+  reminder_text: Weekly on Monday
+  start_date: 12/22/2023
+  target_value: asdf
+Desktops:
+- current_value: 0
+  end_date: 12/13/2023
+  name: Desktops Goal2
+  reminder_text: Monthly on 12th
+  start_date: 12/08/2023
+  target_value: '8'
+- current_value: '0'
+  end_date: 12/25/2023
+  name: lijh
+  reminder_text: Weekly on Monday
+  start_date: 12/21/2023
+  target_value: lkj
+Front Office:
+- current_value: 0
+  end_date: 12/08/2023
+  name: Front Office GOAL1
+  reminder_text: Weekly on Tuesday
+  start_date: 12/08/2023
+  target_value: $100
+- current_value: 0
+  end_date: 12/13/2023
+  name: Front Office Goal2
+  reminder_text: Monthly on 12th
+  start_date: 12/08/2023
+  target_value: '8'
+Laptops:
+- current_value: 0
+  end_date: 12/08/2023
+  name: Laptops GOAL1
+  reminder_text: Weekly on Tuesday
+  start_date: 12/08/2023
+  target_value: $100
+- current_value: 0
+  end_date: 12/13/2023
+  name: Laptops Goal2
+  reminder_text: Monthly on 12th
+  start_date: 12/08/2023
+  target_value: '8'
+Process:
+- current_value: 0
+  end_date: 12/25/2023
+  name: Process GOAL1
+  reminder_text: Weekly on Monday
+  start_date: 12/18/2023
+  target_value: $100
+- current_value: 0
+  end_date: 12/13/2023
+  name: Process Goal2
+  reminder_text: Monthly on 12th
+  start_date: 12/08/2023
+  target_value: '8'
+Receiving:
+- current_value: 0
+  end_date: 12/08/2023
+  name: Receiving GOAL1
+  reminder_text: Weekly on Tuesday
+  start_date: 12/08/2023
+  target_value: $100
+- current_value: 0
+  end_date: 12/13/2023
+  name: Receiving Goal2
+  reminder_text: Monthly on 12th
+  start_date: 12/08/2023
+  target_value: '8'
+Recycling:
+- current_value: 0
+  end_date: 12/19/2023
+  name: Recycling GOAL1
+  reminder_text: Weekly on Tuesday
+  start_date: 12/08/2023
+  target_value: $100
+- current_value: 0
+  end_date: 12/13/2023
+  name: Recycling Goal2
+  reminder_text: Monthly on 12th
+  start_date: 12/08/2023
+  target_value: '8'
+Sale Floor:
+- current_value: $100000
+  end_date: 12/08/2023
+  name: Sale Floor GOAL1
+  reminder_text: Weekly on Tuesday
+  start_date: 12/08/2023
+  target_value: $100
+- current_value: 0
+  end_date: 12/13/2023
+  name: Sale Floor Goal2
+  reminder_text: Monthly on 12th
+  start_date: 12/08/2023
+  target_value: '8'
+eBay:
+- current_value: 0
+  end_date: 01/01/2024
+  name: eBay GOAL1
+  reminder_text: Monthly on the 1st
+  start_date: 12/18/2023
+  target_value: $20000
+- current_value: 0
+  end_date: 12/19/2023
+  name: Items listed past week
+  reminder_text: Monthly on 19th
+  start_date: 12/08/2023
+  target_value: '8'
