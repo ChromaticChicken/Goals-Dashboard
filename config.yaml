@@ -1,16 +1,10 @@
 Classroom:
 - current_value: '0'
-  end_date: 01/08/2024
-  name: asdf
+  end_date: 01/29/2024
+  name: '123456789012345678901234567890'
   reminder_text: Weekly on Monday
-  start_date: 01/03/2024
-  target_value: 098709
-- current_value: '0'
-  end_date: 12/25/2023
-  name: asdffasdf
-  reminder_text: Weekly on Monday
-  start_date: 12/22/2023
-  target_value: asdf
+  start_date: 01/24/2024
+  target_value: '23'
 Desktops:
 - current_value: 0
   end_date: 12/13/2023

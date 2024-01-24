@@ -137,12 +137,13 @@ class GoalsDashboard():
         self.root.after(20 * 60 * 1000, self.periodic_refresh)
 
     def on_resize(self, event: tk.Event) -> None:
-        
+        # define the starting font sizes for the text and title and pass to set_style for resizing
         if self.current_view == "Full":
             for area in self.full_frames_dict:
                
                 starting_text_font_size = 12
                 starting_title_font_size = 19
+                # call set_style for each frame
                 self.set_style(area, starting_text_font_size, starting_title_font_size)
         
         elif self.current_view == "Area Focus":
@@ -154,6 +155,7 @@ class GoalsDashboard():
                 else:
                     starting_text_font_size = 17
                     starting_title_font_size = 30
+                # call set_style for each frame
                 self.set_style(area, starting_text_font_size, starting_title_font_size)
 
                 
@@ -220,6 +222,8 @@ class GoalsDashboard():
                 label = ttk.Label(frame, text=f"{goal['name']}\nTarget: {goal['target_value']}\nCurrent Progress: {goal['current_value']}\nStart Date: {goal['start_date']}\nEnd Date: {goal['end_date']}\n", style=f'{area} goals.TLabel', justify="center")
                 label.pack(anchor="center")
                 self.recolor_label(label, goal)
+
+        # call on_resize to resize the text
         self.on_resize(None)
         
     def recolor_label(self, label: ttk.Label, goal: dict) -> None:
